@@ -1,0 +1,42 @@
+Read me file...........
+
+Steps to create this assignment.
+
+1. First of all, i have create a folder named Module2Ass2.
+Then create a file index.js as the starting file.
+
+2. Run the command, npm init, 
+ so that i can create a package.json file where all the metadata exits
+
+3. install the express server by command :
+   npm i express
+
+4. Create db.json file and put some data inside it.
+
+5. Now inside index.js file, i have create two get point, "/", and "movies" to get the data present on that route.
+
+6. Now Run the serve by : node index.js
+
+-----------
+Using pm2
+
+Install the pm2 package by command :  npm i -g pm2 ( install globally)
+
+now upadate the path inside environment varible.
+
+Then run the file using pm2, pm2 start index
+----------------------
+Download the nginx
+
+and then extact to the location, then update the system variable, so that we can run the command from anywhere in my pc.
+
+then start my nginx
+
+
+pm2 start 
+nginx
+
+Note: I have also changed the proxy url inside nginx config file.
+
+And that's done.. It was working....
+
